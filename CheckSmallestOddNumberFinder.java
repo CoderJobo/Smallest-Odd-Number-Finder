@@ -25,7 +25,7 @@ public class CheckSmallestOddNumberFinder {
 		Scanner scanUserInput = new Scanner(System.in);
 		System.out.println("What size should the array be?");
 		int arraySize = scanUserInput.nextInt();
-		System.out.println("What is the largest possible number the array may contain?");
+		System.out.println("What is the maximum range of numbers the array may contain?");
 		int smallestNum = scanUserInput.nextInt();
 		System.out.println();
 		SmallestOddNumberFinder finder2 = new SmallestOddNumberFinder(arraySize, smallestNum); 
